@@ -1,0 +1,15 @@
+// Reset estilos del navegador Web
+@import "reset/reset.scss";
+
+
+//NAV
+@import "nav/nav.scss";
+
+//HEADER
+@import "header/header.scss";
+
+//ITEMLIST
+@import "ItemListCont/itemListCont.scss";
+
+//**** MEDIA QUERIES ****//
+@import "mediaQueries/mediaqueries.scss";
