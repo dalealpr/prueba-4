@@ -32,9 +32,10 @@ function App() {
       <BrowserRouter>
         <CartProvider>
           <Nav />
+          <Home />
           <Routes>
             
-            <Route path='/home' element={<Home />} />
+            <Route path='/' element={<Home />} />
             <Route path='nosotros' element={<Nosotros />} />
             <Route path='contacto' element={<Contacto />} />
             <Route path='usuario' element={<Usuario />} />
