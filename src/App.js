@@ -33,7 +33,6 @@ function App() {
         <CartProvider>
           <Nav />
           <Routes>
-            
             <Route path='/' element={<Home />} />
             <Route path='nosotros' element={<Nosotros />} />
             <Route path='contacto' element={<Contacto />} />
