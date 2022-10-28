@@ -32,7 +32,6 @@ function App() {
       <BrowserRouter>
         <CartProvider>
           <Nav />
-          <Home />
           <Routes>
             
             <Route path='/' element={<Home />} />
